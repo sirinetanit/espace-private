@@ -1,0 +1,65 @@
+/*inactive button */
+button.inactive{
+  background-color: transparent;
+  border: 2px solid black;
+  box-sizing: border-box;
+  color: black;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+
+button.inactive:hover {
+  color: #fff;
+  background-color: black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+}
+
+/*activ button*/
+
+button.active{
+
+      background-color: #FFFFFF;
+      border: 1px solid white;
+      color: black;
+      font-size: 16px;
+      font-weight: 600;
+      text-align: center;
+      padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+      text-decoration: none;
+      width: auto;
+    }
+    
+    button.active:hover,
+    button.active:focus {
+      box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+      color: rgba(0, 0, 0, 0.65);
+    }
+    
+    button.active:hover {
+      transform: translateY(-1px);
+    }
+
+    /*black btn*/
+    button.disable{
+      background-color: black;
+      border: 2px solid black;
+      color: white;
+      font-size: 12px;
+      text-align: center;
+      text-decoration: none;
+      padding-top: 7%;
+      padding-bottom: 7%;
+      width: 120% !important;
+      
+    }
+    
+    button.disable:hover {
+      box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    }
+    
+   
+
+

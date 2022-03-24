@@ -1,0 +1,59 @@
+.flex{
+    display: flex;
+    margin-right: 3%;
+}
+.gray .left{
+    width: 25%;
+    font-size: 13px;
+    font-weight: 500;
+    color: #858E96;
+    margin-right: 5%;
+}
+.gray .right{
+width: 58%;
+color: #000000;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 24px;
+
+}
+.black{
+color: #000000;
+font-size: 16px;
+font-weight: 500;
+letter-spacing: 0;
+line-height: 17px;
+}
+.black .left{
+    color:black;
+    width: 600px;
+}
+.black .right{
+    text-align: right;
+    width: 100px;
+}
+.small{
+color: #000000;
+letter-spacing: 0;
+line-height: 17px;
+}
+.small .left,
+.small .right{
+    width: 180px;
+}
+
+
+.grayy{
+color:gray;
+font-size: 14px;
+font-weight: 500;
+letter-spacing: 0;
+line-height: 17px;
+}
+.grayy .left{
+    width: 500px;
+}
+.grayy .right{
+    text-align: right;
+    width: 100px;
+}

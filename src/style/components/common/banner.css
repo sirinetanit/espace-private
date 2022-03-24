@@ -1,0 +1,23 @@
+.main-banner{
+    margin-bottom: 98px;
+}
+.banner {
+    margin-top: 3%;
+    width: 100%;
+    height: 360.34px;
+    position: relative;
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+  
+  .banner-container {
+      margin-top: -12%;
+      margin-left: 10%;
+      position: absolute;
+  }
+  .active{
+    margin-top: 7%;
+  }
+ 
+  
+ 
