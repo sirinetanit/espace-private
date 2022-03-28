@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../footer/footer";
 import MainNav from "../header/MainNav";
 
 function Layout(props){

@@ -90,16 +90,16 @@ export default function MonDevis() {
     <h3 className="text-xl font-medium">Programme</h3><br/>
 
     <CardLayout>
-    <AccordionLayout title="Départ pour la Zambie">
+    <AccordionLayout title1="JOUR 1" title2="Départ pour la Zambie">
       <Card className="footer" subtitle="La population vit principalement à Lusaka, la capitale. Bien que le christianisme soit la religion officielle, de nombreux groupes ethniques et tribus pratiquent leurs propres croyances, effectuant des cérémonies à la fois spectaculaires et poussant à la réflexion.
 Vous passerez sans doute la plupart de votre temps dans la brousse. Les occasions ne manquent pas de pratiquer des activités en plein air, la plupart sont d'ailleurs concentrées autour des trois fleuves du pays : le Kafue, le Luangwa et le Zambèze. La Zambie jouit d'un climat tropical, mais il peut faire froid dans les montagnes.
 Les chutes sont aussi une attraction majeure en Zambie. Le trek pour y parvenir peut être difficile, mais gratifiant à l'arrivée. Les chutes Victoria sont les plus connues, mais les chutes de Kalambo, Kundalila, Lumangwe et Ngonye sont aussi des destinations prisées. Si votre vol vers la Zambie arrive de nuit et que vous aimeriez avoir une vue aérienne de la ville de jour, optez pour un tour en hélicoptère et survolez les chutes Victoria. Mais vous pouvez toujours partir pour les gorges des Bakoka, descendre en rappel, ou faire du kayak ou du rafting sur le Zambèze.
 " />
-      <Card className="footer pt-5" title="The Elephant Camp" subtitle="La population vit principalement à Lusaka, la capitale. Bien que le christianisme soit la religion officielle, de nombreux groupes ethniques et tribus pratiquent leurs propres croyances, effectuant des cérémonies à la fois spectaculaires et poussant à la réflexion.
+      <Card className="footer font-semibold pt-5" title="The Elephant Camp" subtitle="La population vit principalement à Lusaka, la capitale. Bien que le christianisme soit la religion officielle, de nombreux groupes ethniques et tribus pratiquent leurs propres croyances, effectuant des cérémonies à la fois spectaculaires et poussant à la réflexion.
 Vous passerez sans doute la plupart de votre temps dans la brousse. Les occasions ne manquent pas de pratiquer des activités en plein air, la plupart sont d'ailleurs concentrées autour des trois fleuves du pays : le Kafue, le Luangwa et le Zambèze. La Zambie jouit d'un climat tropical, mais il peut faire froid dans les montagnes.
 Les chutes sont aussi une attraction majeure en Zambie. Le trek pour y parvenir peut être difficile, mais gratifiant à l'arrivée. Les chutes Victoria sont les plus connues, mais les chutes de Kalambo, Kundalila, Lumangwe et Ngonye sont aussi des destinations prisées. Si votre vol vers la Zambie arrive de nuit et que vous aimeriez avoir une vue aérienne de la ville de jour, optez pour un tour en hélicoptère et survolez les chutes Victoria. Mais vous pouvez toujours partir pour les gorges des Bakoka, descendre en rappel, ou faire du kayak ou du rafting sur le Zambèze.
 " />
-<img src="images/banner.jpg" className="w-1/2 h-1/2 ml-40"/>
+<img src="images/banner.jpg" className="w-1/2 h-3/5 ml-40"/>
 <WCardLayout>
 <Card className="list mx-8 pt-5" title="Inclus dans la prestation"/>
 <Link link="Elephant Camp"/>
@@ -117,33 +117,19 @@ Les chutes sont aussi une attraction majeure en Zambie. Le trek pour y parvenir 
     </AccordionLayout>
     </CardLayout>
 
-<CardLayout>
-  <AccordionLayout title="tittittitit">
-  <div className="flex ">
-  <img src="images/banner.jpg" class=" h-16 px-8"/>
-  <div>
-  <Title className="leftT mb-0" title="Jour 2" subtitle="Victoria Falls "/>
-  <Title className="leftT" title="Visite des Chutes Victoria (première partie) "/>
-  <Link link="Hotel Beach Victoria"/>
-  <Link link="Thermes Bohoudama"/>
-  </div>
-  </div>
+    <CardLayout>
+  <AccordionLayout img="/images/banner.jpg" title1="JOUR 2" title2="Victoria Falls" title3="Visit des Chutes Victoria (premier partie)" link1="Hotel Beach Victoria Falls" link2="Thermes Bohoudama">
+  The accordion uses the collapse functionality to make it fold and unfold.
+  Accordions are useful when you need to organize lots of information in a vertically limited space. The headers let the user scan trough main subjects of the content, and choose which of the subjects they would like to examine in depth by clicking on it. It's very useful for FAQs and complex contact forms.
   </AccordionLayout>
 </CardLayout>
 
 <CardLayout>
-  <AccordionLayout title="tittittitit">
-  <div className="flex ">
-  <img src="images/banner.jpg" class=" h-16 px-8"/>
-  <div>
-  <Title className="leftT mb-0" title="Jour 3" subtitle="Victoria Falls partie 2 "/>
-  <Title className="leftT" title="Le lendemain, vous aurez l'occasion de continuer votre visite des Chutes Victoria. "/>
-  <Link link="Hotel Beach Victoria Falls"/>
-  <ul className="mr-0 list-disc">
-    <li>  <Link link="Thermes Bohoudama"/></li>
-  </ul>
-  </div>
-  </div>
+  <AccordionLayout img="/images/banner.jpg" title1="JOUR 3" title2="Victoria Falls partie 2" title3="Le lendemain, vous aurez l'occasion de continuer votre visite des Chute Victoria" link1="Hotel Beach Victoria Falls" list1="Traversée des Chutes Victoria en Kyak (option à confirmer)">
+  The accordion uses the collapse functionality to make it fold and unfold.
+
+Accordions are useful when you need to organize lots of information in a vertically limited space. The headers let the user scan trough main subjects of the content, and choose which of the subjects they would like to examine in depth by clicking on it. It's very useful for FAQs and complex contact forms.
+  
   </AccordionLayout>
 </CardLayout>
 

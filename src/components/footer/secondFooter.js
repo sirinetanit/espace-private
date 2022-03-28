@@ -6,8 +6,8 @@ export default function SecondFooter(){
        <div>
 
 <footer class=" bg-white md:px-16 md:py-8">
-    <div class="sm:flex sm:items-center sm:justify-between">
-        <ul class="flex items-center mb-4 sm:mb-0 text-gray-400 text-sm font-medium">
+    <div class="flex">
+        <ul class="flex items-center text-gray-400 text-sm font-medium w-11/12">
         <img  className="w-12 h-12 mr-4 rounded-full shadow-lg" src="images/banner.jpg"/>
         <span>Laura Vulfs</span>
         <span className=" border-r mx-2 text-transparent h-10 ">|</span>

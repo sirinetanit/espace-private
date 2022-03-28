@@ -12,7 +12,8 @@ import Btn from "../../components/common/Btn";
 import Title from "../../components/common/title";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faCheck} from '@fortawesome/free-solid-svg-icons';
-import LoginLayout from "../../components/layout/login";
+import LoginLayout from "../../components/layout/loginLayout";
+import LoginCardLayout from "../../components/layout/loginCardLayout";
 
 
 
@@ -21,7 +22,13 @@ export default function Login(){
     return(
         <div>
       <LoginLayout>
-          <h1>test</h1>
+    
+        <LoginCardLayout>
+            <Title subtitle="Se connecter" className="firstT" />
+            <input type="email" id="email" className="bg-transparent border border-gray-300 text-gray-900 text-sm  focus:ring-gray-900 focus:border-gray-900 block p-3 w-3/4 placeholder:text-gray-300 focus:placeholder:text-gray-900 mr-auto ml-auto" placeholder="Entrez votre adresse email" required/>
+            <Btn className=" bg-black text-white text-center p-3 mt-4 w-3/4 ml-20 " title="SE CONNECTER"/>
+        </LoginCardLayout>
+
       </LoginLayout>
         </div>
     );
